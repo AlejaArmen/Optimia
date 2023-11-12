@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export default function Home() {
         <div class="text-center">
         <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-20 rounded-full mt-10">
           <div class= "text-center"></div>
-          <h3 class="text-2xl font-mono flex text-white mt-0">STAR</h3>
+          <Link class="text-2xl font-mono flex text-white mt-0">START          </Link>
     </button>
         </div>
       </section>
