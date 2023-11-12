@@ -22,7 +22,7 @@ export default function Home() {
         <div class="text-center">
         <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-20 rounded-full mt-10">
           <div class= "text-center"></div>
-          <Link href="/login" class="text-2xl font-mono flex text-white mt-0">START          </Link>
+          <Link href="/login" class="text-2xl font-mono flex text-white mt-0">START</Link>
     </button>
         </div>
       </section>
