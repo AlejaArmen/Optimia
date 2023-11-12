@@ -1,5 +1,5 @@
-export default function HomePage(){
-    return(
-        <h1>Hola soy la home page</h1>
-    )
+import Container from '@/components/Container';
+
+export default function Home() {
+  return <Container />;
 }
