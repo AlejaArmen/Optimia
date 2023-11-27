@@ -22,7 +22,7 @@ export default function CustomBtnLogin() {
             <button
               className="bg-blue-500 text-white p-2 rounded-lg "
               onClick={() => {
-                router.replace("/home");
+                router.replace("/chat");
               }}
             >
               Assist ➡️
